@@ -1,10 +1,20 @@
 /* Tablet Version */
 @media screen and (min-width: 768px) {
-    
+    /* Features section */
+    .col-large {
+        width: 63%;
+        margin: 10px;
+    }
+    .col-thin {
+        width: 30%;
+        margin: 10px;
+    }
+
 }
 
 /* Desktop Version */
 @media screen and (min-width: 992px) {
+    /* Header */
     .header-container {
         width: 60%;
         margin: 0 auto;
@@ -15,4 +25,23 @@
     .menu-nav ul {
         display: flex;
     }
+    /* Features section */
+    .features {
+        padding: 2rem 0;
+    }
+    .container {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .col-large {
+        display: flex;
+    }
 }
+/* Large Desktop Version */
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+
+}
+

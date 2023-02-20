@@ -15,6 +15,19 @@ body {
 }
 
 /* LAYOUT */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col {
+    /* Debug */
+    border: 2px solid red;
+}
+.card {
+    padding: .8rem;
+     /* Debug */
+     border: 2px solid blue;
+}
 
 /* Common */
 .container {

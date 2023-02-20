@@ -2,21 +2,18 @@
 @media screen and (min-width: 768px) {
     /* Features section */
     .col-large {
-        width: 63%;
-        margin: 10px;
+        width: 63%;   
     }
     .col-thin {
         width: 30%;
-        margin: 10px;
     }
-
 }
 
 /* Desktop Version */
 @media screen and (min-width: 992px) {
     /* Header */
     .header-container {
-        width: 60%;
+        width: 70%;
         margin: 0 auto;
     }
     .hamburger {
@@ -26,15 +23,18 @@
         display: flex;
     }
     /* Features section */
-    .features {
-        padding: 2rem 0;
-    }
+
     .container {
-        width: 60%;
+        width: 70%;
         margin: 0 auto;
     }
     .col-large {
         display: flex;
+    }
+    /* Planning section */
+    
+    .planning .col {
+        width:calc((100% /2) - (40px /2) );
     }
 }
 /* Large Desktop Version */

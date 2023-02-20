@@ -7,6 +7,11 @@
 img {
     max-width: 100%;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
+
 
 /* STYLE */
 body {
@@ -20,25 +25,30 @@ body {
     flex-wrap: wrap;
 }
 .col {
+    margin: 10px;
+    border-radius: 10px;
     /* Debug */
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .card {
-    padding: .8rem;
+    padding: .8rem .8rem 0;
      /* Debug */
-     border: 2px solid blue;
+     /* border: 2px solid blue; */
 }
 
 /* Common */
 .container {
     width: 100%;
 }
+.text-center {
+    text-align: center;
+}
 
 /* HEADER */
 header {
     height: 70px;
-    /* Debug */
-    background-color: lightblue;
+    background-color:#0084FD;
+    color: white;
 }
 .header-container {
     display: flex;
@@ -50,13 +60,89 @@ header {
 .menu-nav {
     display: flex;
 }
-.menu-nav a {
-    text-decoration: none;
-}
 .menu-nav ul {
     list-style-type: none;
-    gap: 10px;
+    gap: 20px;
     display: none;
+}
+#btn-nav {
+    background-color: white;
+    color: black;
+    padding: .4rem .8rem;
+    border-radius: 1rem;
+}
+.icon {
+    color:#0084FD;
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+.features h4 {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+.features p {
+    margin-bottom: 1.5rem;
+}
+
+/* MAIN */
+/* Features Section */
+.features {
+    padding: 1.5rem .5rem;
+}
+.features .col {
+    background-color: #B5DDFF;
+}
+.features img {
+    width: 60%;
+    display: block;
+    vertical-align: baseline;
+    margin: 0 auto;
+}
+.features h4 {
+    color: #0084FD;
+}
+/* Planning Section*/
+.planning {
+    background-color:#9792E4;
+    padding-top: 2rem;
+    color: white;
+}
+.planning img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.strategic h3 {
+    font-size: 1.8rem;
+    margin: 5rem 0 2rem;
+}
+.developement {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    text-align: center;
+}
+.developement i {
+    background-color: #9792E4;
+    padding: .4rem .5rem;
+    border-radius: 50%;
+    text-align: center;
+}
+.developement h4 {
+    margin: 1.5rem 0;
+}
+.arrow {
+    font-size: 1.2rem;
+    margin:2rem ;
+    text-align: center;
+}
+/* Testimonial */
+.testimonial img {
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 50%;
+    border-radius: 40%;
 }
 
 

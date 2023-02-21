@@ -22,9 +22,7 @@
         margin-left: 0.75rem;
         margin-right: 0.75rem;
     }
-    #features img {
-        width: 50%;
-    }
+    
     .phone {
         align-items: flex-end;
         justify-content: flex-start;
@@ -57,11 +55,6 @@
         margin-left: 0.75rem;
         margin-right: 0.75rem;
     }
-    .quote-mark {
-        position: relative;
-        left: 110px;
-        bottom: 180px;
-    }
 }
 
 /* Desktop Version */
@@ -90,8 +83,11 @@
     #features .col:first-child {
         display: flex;  
     }
-    .phone img {
-        width: 500px;
+    .demo {
+        width: 50%;
+    }
+    .phone {
+        width:50% ;
     }
    
     /* Planning section */
@@ -101,6 +97,18 @@
     .strategic {
         margin-right: 1rem;
         position: relative;
+    }
+    #planning img {
+        width: 70%;
+    }
+    .strategic img {
+        padding-bottom: 6rem;
+    }
+    .developement {
+        align-self: flex-end;
+    }
+    .developement img {
+        width: 40%;
     }
     /* Benefits */
     #benefits .col {

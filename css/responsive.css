@@ -1,16 +1,19 @@
 /* Tablet Version */
 @media screen and (min-width: 768px) {
-    /* Features section */
+    /* Common */
     .container {
         width: 90%;
         padding: 0;
         margin: 0 auto;
     }
+    .small-container {
+        width: 60%;
+    }
     .row {
-        justify-content: space-between;
         display: flex;
         flex-wrap: wrap;
     }
+    /* Features section */
     #features .col:first-child {
         width: calc(100% / 3 * 2 - 1.5rem);
     }
@@ -43,16 +46,37 @@
         margin-left: 0.75rem;
         margin-right: 0.75rem;
     }
+    /* About us  */
+    #about-us .col:first-child {
+        width:60%;
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+    }
+    #about-us .col:last-child {
+        width:30%;
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+    }
+    .quote-mark {
+        position: relative;
+        left: 110px;
+        bottom: 180px;
+    }
 }
 
 /* Desktop Version */
 @media screen and (min-width: 992px) {
+    /* Common */
+    .container {
+        width: 60%;
+        margin: 0 auto;
+    }
     /* Header */
     header {
         font-size: .9rem;
     }
     .header-container {
-        width: 70%;
+        width: 60%;
         margin: 0 auto;
     }
     .hamburger {
@@ -62,18 +86,21 @@
         display: flex;
     }
     /* Features section */
-
-    .container {
-        width: 70%;
-        margin: 0 auto;
-    }
+    
     #features .col:first-child {
-        display: flex;
+        display: flex;  
+    }
+    .phone img {
+        width: 500px;
     }
    
     /* Planning section */
     #planning .col {
         width:calc(100% /2);
+    }
+    .strategic {
+        margin-right: 1rem;
+        position: relative;
     }
     /* Benefits */
     #benefits .col {
@@ -84,7 +111,7 @@
 /* Large Desktop Version */
 @media screen and (min-width: 1200px) {
     .container {
-        width: 1100px;
+        max-width: 1100px;
     }
 
 }

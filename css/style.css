@@ -23,7 +23,7 @@ body {
     border-radius: 10px;
 }
 .card {
-    padding: 1rem 1rem 0;
+    padding: .5rem .5rem 0;
 }
 section {
     padding: 2rem 0;
@@ -33,6 +33,10 @@ section {
 .container {
     width: 100%;
     padding: 1rem ;
+}
+.small-container {
+    width: 90%;
+    margin: 0 auto;
 }
 .text-center {
     text-align: center;
@@ -71,14 +75,13 @@ header {
 #features {
     font-size: .8rem;
     padding: 1.5rem .5rem;
-    color: rgb(108, 105, 105);
-    
+    color: rgb(108, 105, 105); 
 }
 #features .col {
     background-color: #B5DDFF;
 }
 #features img {
-    max-width: 250px;
+    width: 60%;
     display: block;
     margin-top: 1rem;
 }
@@ -113,7 +116,6 @@ header {
 /* Planning Section*/
 #planning {
     background-color:#9792E4;
-    padding-top: 2rem;
     color: white;
 }
 #planning img {
@@ -121,13 +123,18 @@ header {
     display: block;
     margin: 0 auto;
 }
-#planning p {
+#planning .strategic p {
+    font-size: .9rem;
+    margin-bottom: 2rem;
+}
+#planning .developement p {
     font-style: italic;
+    font-size: .9rem;
     margin-bottom: 2rem;
 }
 .strategic h3 {
     font-size: 1.8rem;
-    margin: 5rem 0 2rem;
+    margin: 2rem 0;
 }
 .developement {
     background-color: white;
@@ -137,16 +144,16 @@ header {
 }
 .developement i {
     background-color: #9792E4;
-    padding: .4rem .5rem;
+    padding: .3rem .5rem;
     border-radius: 50%;
     text-align: center;
 }
 .developement h4 {
-    margin: 1.5rem 0;
+    margin: 1rem 0;
 }
 .arrow {
     font-size: 1.2rem;
-    padding-bottom:2rem ;
+    padding-bottom: 1rem;
     text-align: center;
 }
 /* Testimonial */
@@ -179,6 +186,9 @@ header {
 .people p {
     margin-bottom: 1rem;
     font-size: .9rem;
+}
+.people i {
+    font-size: 1rem;
 }
 .name {
     font-weight: bold;
@@ -233,6 +243,13 @@ header {
     border-radius: 50%;
     margin-bottom: 1rem;
 }
+.quote-mark {
+    color:#9792E4;
+    font-size: 4rem;
+    position: relative;
+    right: 48px;
+    bottom: 120px;
+}
 #about-us h2 {
     color:#9792E4;
     font-size: 2rem;
@@ -241,8 +258,7 @@ header {
 #about-us p{
     font-size: .9rem;
     margin-bottom: 2rem;
-    line-height: 1.5rem;
-    
+    line-height: 1.5rem 
 }
 
 #about-us .cit {
@@ -250,13 +266,58 @@ header {
     font-weight: bold;
     font-size: 1.2rem;
     margin-bottom: 1rem;
-
 }
 #btn-find {
     background-color: #9792E4;
     font-size: .7rem;
     padding: .4em .8em;
     border-radius: 1rem;
+}
+
+/* Call to actions */
+#actions {
+    background-color: #9792E4;
+    color: white;
+    text-align: center;
+}
+#actions h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+#actions h2 {
+    color: #FDC15F;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    
+}
+#actions p {
+    font-size: .8rem; 
+    margin: 1.5rem 0;
+}
+#btn-started {
+    background-color: white;
+    color:#9792E4;
+    font-size: .8rem;
+    font-weight: bold;
+    padding: .8em 4em;
+    border-radius: 1.5rem;
+}
+
+/* FOOTER */
+footer {
+    background-color: #333333;
+    color: white;
+    font-size: .8rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+footer a {
+    text-decoration: underline;
+    color:#9792E4;
+
+}
+footer p {
+    padding-top: 3rem;
 }
 
 

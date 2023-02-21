@@ -4,9 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-img {
-    max-width: 100%;
-}
 a {
     text-decoration: none;
     color: white;
@@ -20,25 +17,22 @@ body {
 }
 
 /* LAYOUT */
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 .col {
-    margin: 10px;
+    margin-bottom: 20px;
     border-radius: 10px;
-    /* Debug */
-    /* border: 2px solid red; */
 }
 .card {
-    padding: .8rem .8rem 0;
-     /* Debug */
-     /* border: 2px solid blue; */
+    padding: 1rem 1rem 0;
+}
+section {
+    padding: 2rem 0;
 }
 
 /* Common */
 .container {
     width: 100%;
+    padding: 1rem ;
 }
 .text-center {
     text-align: center;
@@ -71,46 +65,65 @@ header {
     padding: .4rem .8rem;
     border-radius: 1rem;
 }
-.icon {
-    color:#0084FD;
-    font-size: 4rem;
-    margin-bottom: 1.5rem;
-}
-.features h4 {
-    font-size: 1.3rem;
-    margin-bottom: 1.5rem;
-}
-.features p {
-    margin-bottom: 1.5rem;
-}
 
 /* MAIN */
 /* Features Section */
-.features {
+#features {
+    font-size: .8rem;
     padding: 1.5rem .5rem;
+    color: rgb(108, 105, 105);
+    
 }
-.features .col {
+#features .col {
     background-color: #B5DDFF;
 }
-.features img {
-    width: 60%;
+#features img {
+    max-width: 250px;
     display: block;
-    vertical-align: baseline;
-    margin: 0 auto;
+    margin-top: 1rem;
 }
-.features h4 {
+.demo {
+    text-align: left;
+    line-height: 1.5rem;
+}
+.phone {
+    display: flex;
+    justify-content: center;
+}
+.icon {
+    color:#0084FD;
+    font-size: 4.5rem;
+    margin-bottom: 1.5rem;
+}
+#features h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
     color: #0084FD;
 }
+#features p {
+    padding-bottom: 2rem;
+    font-weight: 700;
+}
+#btn-store {
+    font-size: .9rem;
+    background-color:#0084FD;
+    padding: .4em 3em;
+    border-radius: 1rem;
+}
 /* Planning Section*/
-.planning {
+#planning {
     background-color:#9792E4;
     padding-top: 2rem;
     color: white;
 }
-.planning img {
-    width: 80%;
+#planning img {
+    width: 90%;
     display: block;
     margin: 0 auto;
+}
+#planning p {
+    font-style: italic;
+    margin-bottom: 2rem;
 }
 .strategic h3 {
     font-size: 1.8rem;
@@ -133,16 +146,118 @@ header {
 }
 .arrow {
     font-size: 1.2rem;
-    margin:2rem ;
+    padding-bottom:2rem ;
     text-align: center;
 }
 /* Testimonial */
-.testimonial img {
-    display: block;
-    margin: 0 auto;
-    padding: 1rem;
-    width: 50%;
-    border-radius: 40%;
+#testimonial {
+    background-color: white;
+    text-align: center;
 }
+#testimonial img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+#testimonial .card {
+    font-size: .9rem;
+}
+#testimonial .card h2{
+    font-size: 1.8rem;
+    color:#9792E4;
+    margin: 1.5rem 0;
+}
+#testimonial .people {
+    background-color: #9792E4;
+    border-radius: 20px;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    color: white;
+}
+.people p {
+    margin-bottom: 1rem;
+    font-size: .9rem;
+}
+.name {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+/* Benefits */
+#benefits {
+    background-color: #9792E4;
+}
+#benefits h2{
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+#benefits .card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 1.5rem;
+}
+#btn-more {
+    background-color: #9792E4;
+    font-size: .9rem;
+    font-weight: bold;
+    padding: .4em 2.5em;
+    border-radius: 1rem;
+}
+#benefits h3{
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color:#9792E4;
+}
+#benefits h4{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color:#9792E4;
+}
+#benefits p{
+    font-size: .8rem;
+    margin-bottom: 1.5rem;
+    color: rgb(117, 111, 111);
+}
+
+/* About us */
+#about-us {
+    background-color: white;
+}
+#about-us img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+#about-us h2 {
+    color:#9792E4;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+#about-us p{
+    font-size: .9rem;
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+    
+}
+
+#about-us .cit {
+    color:#9792E4;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+
+}
+#btn-find {
+    background-color: #9792E4;
+    font-size: .7rem;
+    padding: .4em .8em;
+    border-radius: 1rem;
+}
+
 
 

@@ -14,7 +14,7 @@
     <!-- GOOGLE FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -54,19 +54,24 @@
     <!-- MAIN -->
     <main>
         <!-- Features section -->
-        <section class="features">
+        <section id="features"> 
             <div class="container">
                 <div class="row">
-                    <div class="col col-large">
-                        <div class="card">
+                    <div class="col">
+                        <div class="card demo">
                             <h4> Get a demo application</h4>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid placeat voluptatum veniam officia distinctio magnam.</p>
+                            <a id="btn-store" href="">
+                                <i class="fa-brands fa-apple">   
+                                </i>
+                                App Store
+                            </a>
                         </div>
-                        <div class="card">
+                        <div class="card phone">
                             <img src="img/phone.png" alt="Phone image">
                         </div>
                     </div>
-                    <div class="col col-thin">
+                    <div class="col">
                         <div class="card text-center ">
                             <div class="icon">
                                 <i class="fa-solid fa-file-code"></i>
@@ -75,7 +80,7 @@
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid placeat voluptatum veniam officia distinctio magnam.</p>
                         </div>
                     </div>
-                    <div class="col col-thin">
+                    <div class="col">
                         <div class="card text-center ">
                             <div class="icon">
                                 <i class="fa-solid fa-compass-drafting"></i>
@@ -84,7 +89,7 @@
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid placeat voluptatum veniam officia distinctio magnam.</p> 
                         </div>
                     </div>
-                    <div class="col col-thin ">
+                    <div class="col">
                         <div class="card text-center ">
                             <div class="icon">
                                 <i class="fa-solid fa-laptop-code"></i>
@@ -93,7 +98,7 @@
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid placeat voluptatum veniam officia distinctio magnam.</p>
                         </div>
                     </div>
-                    <div class="col col-thin">
+                    <div class="col">
                         <div class="card text-center ">
                             <div class="icon">
                                 <i class="fa-solid fa-bullhorn"></i>
@@ -102,13 +107,13 @@
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid placeat voluptatum veniam officia distinctio magnam.</p>
                         </div>
                     </div>
-                </div>   
+                </div>  
             </div>
         </section>
         <!-- /Features section -->
 
         <!-- Planning section -->
-        <section class="planning">
+        <section id="planning">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -136,32 +141,127 @@
         <!-- /Planning section -->
 
         <!-- Testimonial section -->
-        <section class="testimonial">
+        <section id="testimonial">
             <div class="container">
-                <div class="row">
-                    <div class="people card">
-                        <img src="img/testimonial1.jpg" alt="">
-                        <p></p>
-                        <p></p>
-                    </div>
-                    <div class="people-card">
-                        <img src="img/testimonial2.jpg" alt="">
-                        <p></p>
-                        <p></p>
-                    </div>
-                    <div class="people-card">
-                        <img src="img/testimonial3.jpg" alt="">
-                        <p></p>
-                        <p></p>
+                <div class="card">
+                    <p> TESTIMONIALS </p>
+                    <h2> We are committed expert partners</h2>
+                    <p> We place hue value on strong relationships and have seen the benefit they bring to our business. Customer feedback is vital in helping us to get it right.</p>
+                </div>
+                <div class="people">
+                    <img src="img/testimonial1.jpg" alt="">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, dicta reiciendis! Tenetur optio cumque necessitatibus, deserunt culpa maxime molestiae at, error beatae dolores sapiente laborum tempore, quibusdam facilis quas obcaecati.</p>
+                    <p class="name">NAT REYNOLDS</p>
                     </div>
                 </div>
-              
+                <div class="people">
+                    <img src="img/testimonial2.jpg" alt="">
+                    <div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam inventore, et, error eius, dicta quod nobis assumenda possimus iure vel fugit! Reiciendis dignissimos aspernatur tempore eius ea, fugiat eos ut.</p>
+                        <p class="name">CELIA ALMEDA</p>
+                    </div>
+                </div>
+                <div class="people">
+                    <img src="img/testimonial3.jpg" alt="">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque excepturi dolores voluptatum eius possimus, tenetur vel, dolorum quae error exercitationem corporis, nulla deleniti. Aut veritatis animi reiciendis maxime, quia blanditiis?</p>
+                    <p class="name">BOB ROBERTS</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Testimonial section -->
+
+        <!-- Benefits section -->
+        <section id="benefits">
+            <div class="container">
+                <h2>
+                    Benefits of working with us
+                </h2>
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <h3>01</h3>
+                            <h4>Hight Quality</h4>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat suscipit omnis cum autem dolorem recusandae exercitationem rerum esse harum, possimus non magni aspernatur doloremque inventore ipsum sit corrupti provident quisquam.</p>
+                            <a id="btn-more" href="">more</a>
+                        </div> 
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <h3>02</h3>
+                            <h4>Creative Team</h4>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat suscipit omnis cum autem dolorem recusandae exercitationem rerum esse harum, possimus non magni aspernatur doloremque inventore ipsum sit corrupti provident quisquam.</p>
+                            <a id="btn-more" href="">more</a>
+                        </div> 
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <h3>03</h3>
+                            <h4>Amazing Results</h4>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat suscipit omnis cum autem dolorem recusandae exercitationem rerum esse harum, possimus non magni aspernatur doloremque inventore ipsum sit corrupti provident quisquam.</p>
+                            <a id="btn-more" href="">more</a>
+                        </div> 
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <h3>04</h3>
+                            <h4>Best Pricing</h4>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat suscipit omnis cum autem dolorem recusandae exercitationem rerum esse harum, possimus non magni aspernatur doloremque inventore ipsum sit corrupti provident quisquam.</p>
+                            <a id="btn-more" href="">more</a>
+                        </div> 
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <h3>05</h3>
+                            <h4>Innovation</h4>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat suscipit omnis cum autem dolorem recusandae exercitationem rerum esse harum, possimus non magni aspernatur doloremque inventore ipsum sit corrupti provident quisquam.</p>
+                            <a id="btn-more" href="">more</a>
+                        </div> 
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <h3>06</h3>
+                            <h4>24/7 Support</h4>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat suscipit omnis cum autem dolorem recusandae exercitationem rerum esse harum, possimus non magni aspernatur doloremque inventore ipsum sit corrupti provident quisquam.</p>
+                            <a id="btn-more" href="">more</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Benefits section -->
+
+        <!-- About us section -->
+        <section id="about-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <h2> About Us</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi aliquam nobis perspiciatis officia porro veniam, cumque ipsa modi, tempora itaque consequuntur obcaecati asperiores dolorum. Modi alias dolorum soluta quos totam.
+                            Modi alias dolorum soluta quos totam.
+                            </p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora explicabo, perferendis dicta dignissimos, molestiae, quod amet sit quia et delectus debitis voluptas ad nobis? Iure minus vero ipsum sed veritatis? Modi alias dolorum soluta quos totam.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/about.jpg" alt="man">
+                            <p class="cit">I help companies tincidunt tortor aliquam nulla facilisi cras fermentum odio.</p>
+                            <a id="btn-find" href="">
+                                <i class="fa-brands fa-linkedin"></i>
+                                Find me on linkedin
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
 
         </section>
-        <!-- /Testimonial section -->
-
+        <!-- /About us section -->
 
 
     </main>
